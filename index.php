@@ -1,3 +1,5 @@
+<link href="../design.css" rel="stylesheet">
+
 <h1> Select what you want to do</h1>
 
 <h3> LIST </h3>

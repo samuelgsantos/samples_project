@@ -4,6 +4,7 @@ session_start();
 <html>
     <head>
         <title>Samples Interstyle</title>
+        <link href="../design.css" rel="stylesheet">
 
     </head>
     <body>
