@@ -10,9 +10,11 @@ session_start();
     </head>
     <body>
     <?php include ("../listar.php"); ?>
-        <h3>Insert new Sample</h3>
-        <div class="samples">
+      <section class="sample-order">
 
+        <h3>Insert a new sample:</h3>
+
+        <div class="samples">
             <div class="sample_type sample_type--piece">
                 <a href="module_sample.php?type=Folder">Folder</a>
             </div>
@@ -33,6 +35,18 @@ session_start();
                 <a href="module_sample.php?type=AGS">AGS</a>
             </div>
         </div>
+
+      </section>
+
+      <div class="button-group">
+        <button class="warning">
+          <a href="unset_cart.php">Cancel Order</a>
+        </button>
+        <button class="proceed">
+          <a href="">Checkout</a>
+        </button>
+      </div>
+
     </body>
     <p><a href="unset_cart.php">Cancel Order</a></p>
 </html>

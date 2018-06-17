@@ -713,6 +713,12 @@ img {
 .clean-style:focus {
   outline: none;
 }
+.warning {
+  background-color: #E55D4A;
+}
+.proceed {
+  background-color: #B6D985;
+}
 /*--------------------------------------------------------------
 ## Sample Order
 --------------------------------------------------------------*/
@@ -791,7 +797,6 @@ button {
   min-width: 112px;
   padding: 20px;
   margin: 0 auto;
-  background-color: #d8d8d8;
   margin: 1rem 0.5rem;
 }
 button:hover {
@@ -807,7 +812,7 @@ button a {
   color: #000000;
   font-size: 0.8rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 button:hover a {
   color: #FFFFFF;
