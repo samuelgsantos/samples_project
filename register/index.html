@@ -6,30 +6,50 @@
 
     </head>
     <body>
-    
-        <h3>Insert new Sample</h3>
-        <div class="samples">
-            
-            <div class="sample_type sample_type--piece">
-                <a href="module_sample.php?type=Folder">Folder</a> 
-            </div>
-            
-            <div class="sample_type sample_type--wallet">
-                <a href="module_sample.php?type=Piece">Piece</a> 
+
+        <header>
+          <h1>Order Samples</h1>
+          <img src="../assets/images/interstyle_logo2.png" alt="Interstyle Logo">
+        </header>
+
+        <main>
+          <section class="sample-order">
+
+            <h3>Insert a new sample:</h3>
+
+            <div class="samples">
+                <div class="sample_type sample_type--piece">
+                    <a href="module_sample.php?type=Folder">Folder</a>
+                </div>
+
+                <div class="sample_type sample_type--wallet">
+                    <a href="module_sample.php?type=Piece">Piece</a>
+                </div>
+
+                <div class="sample_type sample_type---folder">
+                    <a href="module_sample.php?type=Mesh">Mesh</a>
+                </div>
+
+                <div class="sample_type sample_type--mesh">
+                    <a href="module_sample.php?type=Wallet">Wallet</a>
+                </div>
+
+                <div class="sample_type sample_type--ags">
+                    <a href="module_sample.php?type=AGS">AGS</a>
+                </div>
             </div>
 
-            <div class="sample_type sample_type---folder">
-                <a href="module_sample.php?type=Mesh">Mesh</a> 
-            </div>
+          </section>
 
-            <div class="sample_type sample_type--mesh">
-                <a href="module_sample.php?type=Wallet">Wallet</a> 
-            </div>    
+          <div class="button-group">
+            <button>
+              <a href="unset_cart.php">Cancel Order</a>
+            </button>
+            <button>
+              <a href="">Next</a>
+            </button>
+          </div>
+        </main>
 
-            <div class="sample_type sample_type--ags">
-                <a href="module_sample.php?type=AGS">AGS</a>
-            </div>
-        </div>
     </body>
-    <p><a href="unset_cart.php">Cancel Order</a></p>
 </html>

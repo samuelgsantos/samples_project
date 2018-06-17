@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+@font: 'Source Sans Pro', sans-serif;
+
+.text-regular {
+  font-family: @font;
+  font-weight: 400;
+}
+
+.text-bold {
+  font-family: @font;
+  font-weight: 700;
+}
+
+body,
+label,
+input,
+select,
+form {
+  font-size: 1rem;
+  .text-regular;
+}
+
+h1 {
+  font-size: 1.5rem;
+  .text-bold;
+  margin: 0;
+}
