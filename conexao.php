@@ -2,10 +2,10 @@
 //ARQUIVO PARA CRIAR UMA CONEXAO COM O BANCO DE DADOS
 		
 		// variaveis para conexao
-			$usuario = "root";
-			$senha = "";
-			$servidor = "localhost";
-			$banco = "interstyle_samples";
+			$usuario = "sql3244019";
+			$senha = "fAtWeZudCN";
+			$servidor = "sql3.freemysqlhosting.net";
+			$banco = "sql3244019";
 		// codigo para criar a conexao com o banco de dados
 			$conexao = mysqli_connect($servidor,$usuario,$senha,$banco);
 		// informando o erro caso nao consiga efetuar a conexao
