@@ -9,44 +9,61 @@ session_start();
 
     </head>
     <body>
-    <?php include ("../listar.php"); ?>
-      <section class="sample-order">
+      <main>
+        <?php include ("../listar.php"); ?>
+        <section class="wrap">
 
-        <h3>Insert a new sample:</h3>
+          <h3>Insert a new sample:</h3>
 
-        <div class="samples">
-            <div class="sample_type sample_type--piece">
-                <a href="module_sample.php?type=Folder">Folder</a>
-            </div>
+          <div class="box-wrap">
+              <div class="sample_type">
+                <a href="module_sample.php?type=Folder">
+                  <img src="../assets/images/sample-icon-folder.png" alt="Folder Icon">
+                  Folder
+                </a>
+              </div>
 
-            <div class="sample_type sample_type--wallet">
-                <a href="module_sample.php?type=Piece">Piece</a>
-            </div>
+              <div class="sample_type">
+                  <a href="module_sample.php?type=Piece">
+                    <img src="../assets/images/sample-icon-piece.png" alt="Piece Icon">
+                    Piece
+                  </a>
+              </div>
 
-            <div class="sample_type sample_type---folder">
-                <a href="module_sample.php?type=Mesh">Mesh</a>
-            </div>
+              <div class="sample_type">
+                  <a href="module_sample.php?type=Mesh">
+                    <img src="../assets/images/sample-icon-mesh.png" alt="Meshed Sheet Icon">
+                    Mesh
+                  </a>
+              </div>
 
-            <div class="sample_type sample_type--mesh">
-                <a href="module_sample.php?type=Wallet">Wallet</a>
-            </div>
+              <div class="sample_type">
+                  <a href="module_sample.php?type=Wallet">
+                    <img src="../assets/images/sample-icon-wallet.png" alt="Wallet Icon">
+                    Wallet
+                  </a>
+              </div>
 
-            <div class="sample_type sample_type--ags">
-                <a href="module_sample.php?type=AGS">AGS</a>
-            </div>
+              <div class="sample_type">
+                  <a href="module_sample.php?type=AGS">
+                    <img src="../assets/images/sample-icon-ags.png" alt="AGS Icon">
+                    AGS
+                  </a>
+              </div>
+          </div>
+
+        </section>
+
+        <div class="button-group">
+          <button class="">
+            <a href="unset_cart.php">Cancel Order</a>
+          </button>
+          <button class="proceed">
+            <a href="">Checkout</a>
+          </button>
         </div>
 
-      </section>
-
-      <div class="button-group">
-        <button class="warning">
-          <a href="unset_cart.php">Cancel Order</a>
-        </button>
-        <button class="proceed">
-          <a href="">Checkout</a>
-        </button>
-      </div>
+      </main>
 
     </body>
-    <p><a href="unset_cart.php">Cancel Order</a></p>
 </html>

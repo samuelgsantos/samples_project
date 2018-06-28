@@ -717,15 +717,12 @@ img {
   background-color: #E55D4A;
 }
 .proceed {
-  background-color: #B6D985;
+  background-color: rgba(182, 217, 133, 0.76);
 }
-/*--------------------------------------------------------------
-## Sample Order
---------------------------------------------------------------*/
-.sample-order {
+.wrap {
   width: 100%;
 }
-.samples {
+.box-wrap {
   background-color: rgba(216, 216, 216, 0.3);
   padding: 40px;
   display: flex;
@@ -734,13 +731,24 @@ img {
   border-radius: 16px;
   margin: 0 auto;
 }
-.sample_type {
-  hight: 82px;
-  width: 105px;
+/*--------------------------------------------------------------
+## Sample Order
+--------------------------------------------------------------*/
+.sample_type a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  border-radius: 16px;
+  padding: 0.5rem;
+}
+.sample_type a:hover {
+  background-color: #FFFFFF;
+}
+.sample_type a img {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  margin-bottom: 6px;
 }
 /*--------------------------------------------------------------
 # Header
