@@ -8,10 +8,11 @@ button {
   min-width: 112px;
   padding: 20px;
   .layout-center;
-  // background-color: @button-color;
+  .text-bold;
   margin: 1rem 0.5rem;
   &:hover {
     background-color: @brand-primary-color;
+    color: @brand-tertiary-color;
   }
   a {
     color: @brand-primary-color;
@@ -20,6 +21,10 @@ button {
   }
   &:hover a {
     color: @brand-tertiary-color;
-    .text-bold;
   }
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
 }

@@ -7,4 +7,4 @@
         <option value="sandstone" >Sandstone</option>
         <option value="boardwalk" >Boardwalk</option>
         <option value="dune" >Dune</option></select>
-    </select><br>
+    </select>

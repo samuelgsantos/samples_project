@@ -8,4 +8,4 @@
         <option>4x6</option>
         <option>6x6</option>
         <option>Other</option>
-    </select><br>
+    </select>
