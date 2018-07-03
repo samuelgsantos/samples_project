@@ -7,4 +7,4 @@
 <a href="listar.php?status=done">List Done</a>
 
 <h3>Register</h3>
-<a href="register.php">Register</a>
+<a href="register/">Register</a>
