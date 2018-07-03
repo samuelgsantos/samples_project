@@ -3,36 +3,49 @@ session_start();
 
 $type = $_GET['type'];
 ?>
+
 <head>
     <link href="../design.css" rel="stylesheet">
 </head>
-<?php
-echo "<h4>Insert new Sample " . $type . "</h4>";
-/* session_start; */
 
-if ($type == NULL){
-    $type = "folder";
-}
+<header>
+  <h1>Order Samples</h1>
+  <img src="../assets/images/interstyle_logo2.png" alt="Interstyle Logo">
+</header>
 
-    /*if($type == "folder"){
-        include "register/folder.php";
-    }*/
-    switch ($type) {
-        case "Folder":
-            include "folder.php";
-            break;
-        case "Piece";
-            include "piece.php";
-            break;
-        case "Mesh";
-            include "mesh.php";
-            break;
-        case "Wallet";
-            include "wallet.php";
-            break;
-        case "AGS";
-            include "ags.php";
-            break;
-    }
+<main>
+  <section class="wrap">
 
-?>
+      <?php
+      echo "<h3>Insert new Sample " . $type . "</h3>";
+      /* session_start; */
+
+      if ($type == NULL){
+          $type = "folder";
+      }
+
+          /*if($type == "folder"){
+              include "register/folder.php";
+          }*/
+          switch ($type) {
+              case "Folder":
+                  include "folder.php";
+                  break;
+              case "Piece";
+                  include "piece.php";
+                  break;
+              case "Mesh";
+                  include "mesh.php";
+                  break;
+              case "Wallet";
+                  include "wallet.php";
+                  break;
+              case "AGS";
+                  include "ags.php";
+                  break;
+          }
+
+      ?>
+
+  </section>
+</main>
